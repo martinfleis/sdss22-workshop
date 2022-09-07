@@ -1,0 +1,12 @@
+name: sdsc
+channels:
+  - conda-forge
+dependencies:
+  - momepy
+  - pygeos
+  - osmnx
+  - clustergram
+  - bokeh
+  - scikit-learn
+  - geopy
+  - ipywidgets
