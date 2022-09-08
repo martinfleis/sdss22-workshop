@@ -1,4 +1,4 @@
-name: sdsc
+name: sdss2022
 channels:
   - conda-forge
 dependencies:
