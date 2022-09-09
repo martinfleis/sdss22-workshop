@@ -1,6 +1,13 @@
 # Understanding the structure of cities through the lens of data
 
-SDSS 2022 Workshop
+### SDSS 2022 Workshop
+
+### Martin Fleischmann<sup>1,2,3</sup> & James D. Gaboardi<sup>4</sup>
+  
+1. Geographic Data Science Lab, University of Liverpool
+2. Urban and Regional Laboratory, Charles University
+3. UrbanDataLab AG, Zurich
+4. Oak Ridge National Laboratory
 
 ## Run online
 
