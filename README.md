@@ -16,7 +16,7 @@ If you want to run the notebook locally, it is recommended to create a new `cond
 conda env create -f environment.yml
 ```
 
-Alternatively, ensure that all required dependencies are available in your environment in their latest versions (as of October 24, 2021).
+Alternatively, ensure that all required dependencies are available in your environment in their latest versions (as of September 22, 2022).
 
 ```
 - momepy
@@ -31,4 +31,10 @@ Alternatively, ensure that all required dependencies are available in your envir
 
 ## Annotation
 
-Martin will walk you through the fundamentals of analysis of the structure of cities. You will learn what can be measured, how to do that in Python, and how to use those numbers to capture the patterns that make up cities. Using a real-life example, you will learn every step of the method, from data retrieval to detection of individual patterns.
+Martin & James will walk you through the fundamentals of analysis of the structure of cities. You will learn what can be measured, how to do that in Python, and how to use those numbers to capture the patterns that make up cities. Using a real-life example, you will learn every step of the method, from data retrieval to detection of individual patterns.
+
+## Acknowledgement
+
+The following acknowledgement applies to James D. Gaboardi (affiliation 4) only:
+
+> This manuscript has been authored in part by UT-Battelle LLC under contract DE- AC05-00OR22725 with the US Department of Energy (DOE). The US government retains and the publisher, by accepting the article for publication, acknowledges that the US government retains a nonexclusive, paid-up, irrevocable worldwide license to publish or reproduce the published form of this manuscript, or allow others to do so, for US government purposes. DOE will provide public access to these results of federally sponsored research in accordance with the DOE Public Access Plan (http://energy.gov/downloads/doe-public-access-plan).
