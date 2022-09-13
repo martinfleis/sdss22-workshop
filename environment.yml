@@ -3,11 +3,11 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - momepy
-  - pygeos
-  - osmnx
-  - clustergram
   - bokeh
-  - scikit-learn
+  - clustergram
   - geopy
   - ipywidgets
+  - momepy
+  - osmnx
+  - pygeos
+  - scikit-learn
