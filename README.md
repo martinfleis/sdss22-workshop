@@ -2,7 +2,7 @@
 
 ### SDSS 2022 Workshop
 
-### Martin Fleischmann<sup>1,2,3</sup> & James D. Gaboardi<sup>4</sup>
+### [Martin Fleischmann](https://martinfleischmann.net)<sup>1,2,3</sup> & [James D. Gaboardi](https://www.ornl.gov/staff-profile/james-d-gaboardi)<sup>4</sup>
   
 1. Geographic Data Science Lab, University of Liverpool
 2. Urban and Regional Laboratory, Charles University
