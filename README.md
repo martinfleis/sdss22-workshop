@@ -26,14 +26,15 @@ conda env create -f environment.yml
 Alternatively, ensure that all required dependencies are available in your environment in their latest versions (as of September 22, 2022).
 
 ```
-- momepy
-- pygeos
-- osmnx
-- clustergram
+- python=3.10
 - bokeh
-- scikit-learn
+- clustergram
 - geopy
 - ipywidgets
+- momepy
+- osmnx
+- pygeos
+- scikit-learn
 ```
 
 ## Annotation
