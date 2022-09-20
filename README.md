@@ -31,10 +31,14 @@ Alternatively, ensure that all required dependencies are available in your envir
 - clustergram
 - geopy
 - ipywidgets
+- matplotlib=3.5.3
 - momepy
 - osmnx
+- pandas=1.4.4
 - pygeos
 - scikit-learn
+- splot
+- watermark
 ```
 
 ## Annotation
