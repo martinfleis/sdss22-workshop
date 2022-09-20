@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Understanding the structure of cities through the lens of data</title>
+
+		<meta name="description" content="Understanding the structure of cities through the lens of data">
+		<meta name="author" content="Martin Fleischmann">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="./revealjs/dist/reset.css">
+		<link rel="stylesheet" href="./revealjs/dist/reveal.css">
+		<link rel="stylesheet" href="./revealjs/dist/theme/ugai.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="./revealjs/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+
+	<body>
+
+        <!-- BODY -->
+		<div class="reveal">
+			<div class="slides">
+
+                <section>
+                <section id="understanding-the-structure-of-cities-through-the-lens-of-data" class="title-slide slide level1">
+                <h1>Understanding the structure of cities through the lens of data</h1>
+
+                </section>
+                <section id="section" class="slide level2">
+                <h2></h2>
+                <table>
+                <col width="50%">
+                <col width="50%">
+                <tr>
+                <td>
+                <CENTER>
+                <b>Martin Fleischmann</b>
+                </CENTER>
+                </td>
+                <td>
+                <CENTER>
+                <b>James D. Gaboardi</b>
+                </CENTER>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <CENTER>
+                <SMALL> <a href="https://twitter.com/martinfleis"><span class="citation" data-cites="martinfleis">@martinfleis</span></b></a> </SMALL>
+                </CENTER>
+                </td>
+                <td>
+                <CENTER>
+                <SMALL> <a href="https://twitter.com/JamesGaboardi"><span class="citation" data-cites="JamesGaboardi">@JamesGaboardi</span></b></a> </SMALL>
+                </CENTER>
+                </td>
+                </tr>
+                </table>
+                <table>
+                <col width="25%">
+                <col width="25%">
+                <col width="25%">
+                <col width="25%">
+                <tr>
+                <td>
+                <a href="https://www.liverpool.ac.uk/geographic-data-science/"> <img src="fig/logo_liv.png" style="width:300px;vertical-align:middle;box-shadow:none"> </a>
+                </td>
+                <td>
+                <a href="http://urrlab.cz"> <img src="fig/cuni.webp" style="width:300px;vertical-align:middle;box-shadow:none"></a>
+                </td>
+                <td>
+                <a href="https://urbandatalab.ch"> <img src="fig/udl.png" style="width:300;vertical-align:middle;box-shadow:none"></a>
+                </td>
+                <td>
+                <a href="https://www.ornl.gov"> <img src="fig/ornl.svg" style="width:300;vertical-align:middle;box-shadow:none"></a>
+                </td>
+                </tr>
+                </table>
+                </section></section>
+                <section>
+                <section id="section-1" class="title-slide slide level1">
+                <h1></h1>
+
+                </section>
+                <section id="how-we-arrange-stuff-in-cities-matters" class="slide level2">
+                <h2>How we arrange “stuff” in cities matters</h2>
+                <table>
+                <col width="50%">
+                <col width="50%">
+                <tr>
+                <td>
+                <CENTER>
+                <img src="fig/nyt_buildings_dc.png" style="width:100%;vertical-align:middle">
+                </CENTER>
+                </td>
+                <td>
+                <CENTER>
+                <img src="fig/nyt_buildings_mesa.png" style="width:100%;vertical-align:middle">
+                </CENTER>
+                </td>
+                </tr>
+                </table>
+                <p><span class="pie">Source: <em>A map of every building in America</em> (<a href="https://www.nytimes.com/interactive/2018/10/12/us/map-of-every-building-in-the-united-states.html">New York Times</a>)</span></p>
+                </section>
+                <section id="section-2" class="slide level2">
+                <h2></h2>
+                <p>… it matters <em>a lot</em></p>
+                <table>
+                <col width="33%" height="50%">
+                <col width="33%" height="50%">
+                <col width="33%" height="50%">
+                <tr>
+                <td>
+                <CENTER>
+                <img src="fig/joue_density.png" style="width:100%;vertical-align:middle">
+                </CENTER>
+                </td>
+                <td>
+                <CENTER>
+                <img src="fig/cities_in_bad_shape.png" style="width:100%;vertical-align:middle">
+                </CENTER>
+                </td>
+                <td>
+                <CENTER>
+                <img src="fig/est_emissions.png" style="width:100%;vertical-align:middle">
+                </CENTER>
+                </td>
+                </tr>
+                <tr class="fragment">
+                <td>
+                <CENTER>
+                <img src="fig/living_with_beauty.png" style="width:100%;vertical-align:middle">
+                </CENTER>
+                </td>
+                <td>
+                <CENTER>
+                <img src="fig/oecd_rethinking_sprawl.png" style="width:100%;vertical-align:middle">
+                </CENTER>
+                </td>
+                <td>
+                <CENTER>
+                <img src="fig/un_nua.png" style="width:100%;vertical-align:middle">
+                </CENTER>
+                </td>
+                </tr>
+                </table>
+                </section></section>
+                <section>
+                <section id="section-3" class="title-slide slide level1">
+                <h1></h1>
+
+                </section>
+                <section id="urban-form" class="slide level2">
+                <h2>Urban Form</h2>
+                <CENTER>
+                <em>What does it look like?</em>
+                </CENTER>
+                <CENTER>
+                <span class="fragment" style="color:#3b6e8c"> “Physical structure and appearance of cities” </span>
+                </CENTER>
+                </section>
+                <section id="what-do-we-talk-about" class="slide level2">
+                <h2>What do we talk about</h2>
+                <CENTER>
+                <span class="fragment" style="color:#3b6e8c"> … when we talk about urban morphology? </span>
+                </CENTER>
+                <br />
+                <table>
+                <col width="25%">
+                <col width="25%">
+                <col width="25%">
+                <col width="25%">
+                <tr>
+                <td style="vertical-align:middle">
+                <CENTER>
+                <span class="fragment"> buildings </span>
+                </CENTER>
+                </td>
+                <td style="vertical-align:middle">
+                <CENTER>
+                <span class="fragment"> streets </span>
+                </CENTER>
+                </td>
+                <td style="vertical-align:middle">
+                <CENTER>
+                <span class="fragment"> plots </span>
+                </CENTER>
+                </td>
+                <td style="vertical-align:middle">
+                <CENTER>
+                <span class="fragment"> open spaces </span>
+                </CENTER>
+                </td>
+                </tr>
+                </table>
+                </section>
+                <section id="how-can-we-describe-it" class="slide level2">
+                <h2>How can we describe it</h2>
+                <CENTER>
+                <span class="fragment" style="color:#3b6e8c"> … numerically? </span>
+                </CENTER>
+                </section>
+                <section id="urban-morphometrics" class="slide level2">
+                <h2>Urban morphometrics</h2>
+                <CENTER>
+                <span class="fragment" style="color:#3b6e8c"> “quantitative analysis of urban form” </span>
+                </CENTER>
+                <br />
+                <CENTER>
+                <span class="fragment"> All about <span class="hlg">measuring</span>. </span>
+                </CENTER>
+                </section>
+                <section id="measuring" class="slide level2">
+                <h2>Measuring</h2>
+                <table>
+                <col width="33%">
+                <col width="33%">
+                <col width="33%">
+                <tr>
+                <td style="vertical-align:middle">
+                <CENTER>
+                <span class="fragment"> dimension </span>
+                </CENTER>
+                </td>
+                <td style="vertical-align:middle">
+                <CENTER>
+                <span class="fragment"> shape </span>
+                </CENTER>
+                </td>
+                <td style="vertical-align:middle">
+                <CENTER>
+                <span class="fragment"> spatial distribution </span>
+                </CENTER>
+                </td>
+                </tr>
+                <tr>
+                <td style="vertical-align:middle">
+                <CENTER>
+                <span class="fragment"> intensity </span>
+                </CENTER>
+                </td>
+                <td style="vertical-align:middle">
+                <CENTER>
+                <span class="fragment"> connectivity </span>
+                </CENTER>
+                </td>
+                <td style="vertical-align:middle">
+                <CENTER>
+                <span class="fragment"> diversity </span>
+                </CENTER>
+                </td>
+                </tr>
+                </table>
+                </section>
+                <section id="why" class="slide level2">
+                <h2>Why?</h2>
+                <CENTER>
+                <span class="fragment"> Because we (finally) can! </span>
+                </CENTER>
+                </section>
+                <section id="data" class="slide level2">
+                <h2>Data</h2>
+                <CENTER>
+                <span class="fragment"> <img src="fig/osm.png" style="width:100%;vertical-align:middle;box-shadow:none"> </span>
+                </CENTER>
+                </section>
+                <section id="tools" class="slide level2">
+                <h2>Tools</h2>
+                <table>
+                <col width="33%">
+                <col width="33%">
+                <col width="33%">
+                <tr>
+                <td>
+                <CENTER>
+                <span class="fragment"> GeoPandas </span>
+                </CENTER>
+                </td>
+                <td>
+                <CENTER>
+                <span class="fragment"> PySAL </span>
+                </CENTER>
+                </td>
+                <td>
+                <CENTER>
+                <span class="fragment"> momepy </span>
+                </CENTER>
+                </td>
+                </tr>
+                </table>
+                </section>
+                <section id="geopandas" class="slide level2">
+                <h2>GeoPandas</h2>
+                <CENTER>
+                <span class="fragment" style="color:#3b6e8c"> GeoPandas is an open source project to add support for geographic data to pandas objects. </span>
+                </CENTER>
+                <br />
+                <CENTER>
+                <span class="fragment"> <a href="https://geopandas.org">geopandas.org</a> </span>
+                </CENTER>
+                </section>
+                <section id="pysal" class="slide level2">
+                <h2>PySAL</h2>
+                <CENTER>
+                <span class="fragment" style="color:#3b6e8c"> Python Spatial Analysis Library </span>
+                </CENTER>
+                <br />
+                <CENTER>
+                <span class="fragment"> <a href="https://pysal.org">pysal.org</a> </span>
+                </CENTER>
+                </section>
+                <section id="momepy" class="slide level2">
+                <h2>momepy</h2>
+                <CENTER class="fragment">
+                <span style="color:#3b6e8c"> Urban Morphology Measuring Toolkit </span> <small> A member of the PySAL family </small>
+                </CENTER>
+                <CENTER>
+                <span class="fragment"> <a href="https://momepy.org">momepy.org</a> </span>
+                </CENTER>
+                </section></section>
+                <section>
+                <section id="section-4" class="title-slide slide level1">
+                <h1></h1>
+
+                </section>
+                <section id="outline" class="slide level2">
+                <h2>Outline</h2>
+                <CENTER>
+                <span class="fragment"> <img src="fig/workflow.png" style="width:100%;vertical-align:middle;box-shadow:none"> </span>
+                </CENTER>
+                </section></section>
+
+			</div>
+		</div>
+
+        <!-- DEPENDENCIES -->
+		<script src="./revealjs/dist/reveal.js"></script>
+		<script src="./revealjs/plugin/zoom/zoom.js"></script>
+		<script src="./revealjs/plugin/notes/notes.js"></script>
+		<script src="./revealjs/plugin/search/search.js"></script>
+		<script src="./revealjs/plugin/markdown/markdown.js"></script>
+		<script src="./revealjs/plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				controlsTutorial: false,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>

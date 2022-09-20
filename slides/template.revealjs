@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Understanding the structure of cities through the lens of data</title>
+
+		<meta name="description" content="Understanding the structure of cities through the lens of data">
+		<meta name="author" content="Martin Fleischmann">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="./revealjs/dist/reset.css">
+		<link rel="stylesheet" href="./revealjs/dist/reveal.css">
+		<link rel="stylesheet" href="./revealjs/dist/theme/ugai.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="./revealjs/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+
+	<body>
+
+        <!-- BODY -->
+		<div class="reveal">
+			<div class="slides">
+
+                $body$
+
+			</div>
+		</div>
+
+        <!-- DEPENDENCIES -->
+		<script src="./revealjs/dist/reveal.js"></script>
+		<script src="./revealjs/plugin/zoom/zoom.js"></script>
+		<script src="./revealjs/plugin/notes/notes.js"></script>
+		<script src="./revealjs/plugin/search/search.js"></script>
+		<script src="./revealjs/plugin/markdown/markdown.js"></script>
+		<script src="./revealjs/plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				controlsTutorial: false,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
