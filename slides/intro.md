@@ -353,7 +353,7 @@
         Urban Morphology Measuring Toolkit
     </span>
     <small>
-Member of a PySAL family
+A member of the PySAL family
 </small>
 </CENTER>
 <CENTER>
