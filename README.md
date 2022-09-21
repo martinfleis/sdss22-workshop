@@ -65,7 +65,7 @@ conda activate sdss2022
 In case you do not want to install everything and just want to try out the course
 material, use the environment setup by Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/sdss22-workshop/main?urlpath=lab/)
-and open the notebooks right away.
+and open the notebook right away.
 
 #### Step 3: starting Jupyter Lab
 
