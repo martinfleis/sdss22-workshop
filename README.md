@@ -33,6 +33,8 @@ Alternatively, ensure that all required dependencies are available in your envir
 - ipywidgets
 - matplotlib=3.5.3
 - momepy
+- numba=0.55.2
+- numpy=1.22.4
 - osmnx
 - pandas=1.4.4
 - pygeos
