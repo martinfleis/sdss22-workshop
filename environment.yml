@@ -5,8 +5,10 @@ dependencies:
   - python=3.10
   - bokeh
   - clustergram
+  - contextily
   - geopy
   - ipywidgets
+  - jupyterlab>3
   - matplotlib=3.5.3
   - momepy
   - numba=0.55.2
@@ -15,5 +17,4 @@ dependencies:
   - pandas=1.4.4
   - pygeos
   - scikit-learn
-  - splot
   - watermark
