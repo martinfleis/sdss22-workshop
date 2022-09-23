@@ -1,6 +1,8 @@
 # Understanding the structure of cities through the lens of data
 
-### SDSS 2022 Workshop
+### SDSS 2022 Workshop [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7109016.svg)](https://doi.org/10.5281/zenodo.7109016)
+
+
 
 ### [Martin Fleischmann](https://martinfleischmann.net)<sup>1,2,3</sup> & [James D. Gaboardi](https://www.ornl.gov/staff-profile/james-d-gaboardi)<sup>4</sup>
 
@@ -17,9 +19,7 @@ Martin & James will walk you through the fundamentals of analysis of the structu
 
 ### Run online
 
-Open in an interactive in-browser environment:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/sdss22-workshop/HEAD?labpath=demo-notebook.ipynb)
+Open in an interactive in-browser environment: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/sdss22-workshop/HEAD?labpath=demo-notebook.ipynb)
 
 ### Run locally
 
@@ -63,9 +63,7 @@ conda activate sdss2022
 ```
 
 In case you do not want to install everything and just want to try out the course
-material, use the environment setup by Binder
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/sdss22-workshop/main?urlpath=lab/)
-and open the notebook right away.
+material, use the environment setup by Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/sdss22-workshop/main?urlpath=lab/) and open the notebook right away.
 
 #### Step 3: starting Jupyter Lab
 
