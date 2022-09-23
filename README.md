@@ -1,6 +1,7 @@
 # Understanding the structure of cities through the lens of data
 
-### SDSS 2022 Workshop [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7109016.svg)](https://doi.org/10.5281/zenodo.7109016)
+### SDSS 2022 Workshop 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7109016.svg)](https://doi.org/10.5281/zenodo.7109016)
 
 
 
@@ -19,7 +20,9 @@ Martin & James will walk you through the fundamentals of analysis of the structu
 
 ### Run online
 
-Open in an interactive in-browser environment: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/sdss22-workshop/HEAD?labpath=demo-notebook.ipynb)
+Open in an interactive in-browser environment: 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/sdss22-workshop/HEAD?labpath=demo-notebook.ipynb)
 
 ### Run locally
 
